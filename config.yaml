@@ -1,0 +1,23 @@
+project:
+  base_currency: "PLN"       
+
+sources:
+  stocks:
+    tickers: ["AAPL", "MSFT", "NVDA", "TSLA"]   
+    period: "1y"               
+    interval: "1d"             
+  fx:
+    provider: "ECB"            
+    base_currency: "EUR"       
+    symbols: ["USD", "PLN"]   
+
+paths:
+  processed_dir: "data/processed"
+  warehouse_db: "data/warehouse/finance_etl.db"
+  reports_dir: "reports/exports"
+  figures_dir: "reports/figures"
+
+report:
+  filename_prefix: "finance_report"
+  save_excel: true
+  save_png: true

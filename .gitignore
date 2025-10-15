@@ -1,0 +1,14 @@
+# env / IDE / cache
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# dane i artefakty
+data/
+reports/
+*.db
+*.parquet
+*.xlsx
+*.png
