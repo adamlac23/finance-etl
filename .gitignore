@@ -10,3 +10,5 @@ reports/
 *.parquet
 *.xlsx
 *.png
+
+!docs/**
